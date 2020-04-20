@@ -4,7 +4,8 @@ using System.Text;
 
 namespace LemonadeStand
 {
-    class Ingredient
+    abstract class Ingredient
     {
+
     }
 }
