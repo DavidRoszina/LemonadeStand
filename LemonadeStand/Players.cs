@@ -4,7 +4,15 @@ using System.Text;
 
 namespace LemonadeStand
 {
-    class Players
+    class Player
     {
+        public string name;
+        public Wallet wallet;
+
+        public Player()
+        {
+            name = "David";
+            wallet = new Wallet();
+        }
     }
 }

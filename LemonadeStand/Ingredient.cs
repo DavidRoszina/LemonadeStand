@@ -4,8 +4,12 @@ using System.Text;
 
 namespace LemonadeStand
 {
-    abstract class Ingredient
+    public abstract class Ingredient
     {
-
+        public string name;
+        public Ingredient()
+        {
+            name = "Ingredient";
+        }
     }
 }

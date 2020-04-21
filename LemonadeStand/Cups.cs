@@ -6,6 +6,11 @@ namespace LemonadeStand
 {
     class Cups : Ingredient
     {
+        public int amount;
 
+        public Cups()
+        {
+            amount = 0;
+        }
     }
 }
