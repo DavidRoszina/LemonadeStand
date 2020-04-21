@@ -6,12 +6,24 @@ namespace LemonadeStand
 {
     class Wallet
     {
-        
-        public double cash;
+        private double money;
+
+        public double Money
+        {
+            get
+            {
+                return money;
+            }
+        }
+
         public Wallet()
         {
-            cash = 100;
-            
+            money = 20.00;
+        }
+
+        public void PayMoneyForItems(double transactionAmount)
+        {
+            money -= transactionAmount;
         }
     }
 }

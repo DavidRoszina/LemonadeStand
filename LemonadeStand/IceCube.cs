@@ -4,16 +4,14 @@ using System.Text;
 
 namespace LemonadeStand
 {
-    
-    abstract class Ingredient
+    class IceCube : Ingredient
     {
         // member variables (HAS A)
-        public string name;
 
         // constructor (SPAWNER)
-        static Ingredient()
+        public IceCube()
         {
-
+            name = "ice cube";
         }
 
         // member methods (CAN DO)
