@@ -4,7 +4,12 @@ using System.Text;
 
 namespace LemonadeStand
 {
-    class Days
+    class Day
     {
+        //Member Variables
+
+        //Constructor
+
+        //Methods
     }
 }

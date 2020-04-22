@@ -6,14 +6,16 @@ namespace LemonadeStand
 {
     class Recipe
     {
-        public int lemonsToAdd;
-        public int iceCubesToAdd;
-        public int sugarCubesToAdd;
+        public int amountOfLemons;
+        public int amountOfIceCubes;
+        public int amountOfSugarCubes;
+        public double pricePerCup;
         public Recipe()
         {
-            lemonsToAdd = 6;
-            iceCubesToAdd = 8;
-            sugarCubesToAdd = 30;
+            amountOfLemons = 6;
+            amountOfIceCubes = 8;
+            amountOfSugarCubes = 30;
+            pricePerCup = 1.25;
         }
     }
 }

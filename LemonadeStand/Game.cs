@@ -6,5 +6,10 @@ namespace LemonadeStand
 {
     class Game
     {
+        //Member Variables
+
+        //Constructor
+
+        //Methods
     }
 }
